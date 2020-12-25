@@ -1,0 +1,35 @@
+{
+  "name": "fauna-crud",
+  "version": "0.0.1",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "description": "A tiny CRUD model for FaunaDB using Annotations",
+  "homepage": "https://github.com/mattvb91/FaunaCRUD",
+  "repository": {
+    "url": "https://github.com/mattvb91/FaunaCRUD"
+  },
+  "author": {
+    "email": "matthias@corejam.io",
+    "name": "Matthias von Bargen"
+  },
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build": "tsc -p tsconfig.json",
+    "test": "jest --verbose --config=./jest.config.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.19",
+    "dotenv": "8.2.0",
+    "jest": "^26.6.3",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2",
+    "ts-jest": "26.4.4",
+    "tslib": "^2.0.3",
+    "typescript": "4.1.3"
+  },
+  "dependencies": {
+    "faunadb": "^4.0.0"
+  }
+}

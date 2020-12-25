@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "module": "ES2020",
+        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": false,
+        "skipLibCheck": true,
+        "outDir": "./dist",
+        "noImplicitAny": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "types": [
+            "node",
+            "jest"
+        ],
+        "moduleResolution": "node",
+        "declaration": true,
+        "rootDir": "./src"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "dist/**/*"
+    ]
+}
